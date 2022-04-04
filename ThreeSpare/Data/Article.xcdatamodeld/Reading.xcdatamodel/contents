@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Article" representedClassName=".Article" syncable="YES">
+        <attribute name="addDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="articleID" attributeType="String"/>
+        <attribute name="author" attributeType="String"/>
+        <attribute name="content" attributeType="String"/>
+        <attribute name="count" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isFav" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="readDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="summary" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Article" positionX="-54" positionY="-9" width="128" height="164"/>
+    </elements>
+</model>
